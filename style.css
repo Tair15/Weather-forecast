@@ -1,0 +1,75 @@
+html,
+body {
+  background: #528ab4;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+}
+
+.cover-container {}
+
+#map {
+  height: 100vh;
+}
+
+.bd-placeholder-img {
+
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.btn-primary {
+  background: none;
+  border: none;
+}
+
+input.city {
+  border: none;
+  outline: none;
+  /* Убираем обводку при фокусе */
+}
+
+.search-icon,
+.close-icon {
+  cursor: pointer;
+}
+
+#info {
+  border-color: #528ab4;
+  border: 100px;
+  width: 20%;
+  top: 7%;
+  left: 0px;
+}
+
+.card {
+  background: linear-gradient(170deg, #7bc7dd, #528ab4);
+}
+
+.modal-backdrop {
+  position: relative;
+  z-index: -1
+}
+
+header {
+  background: #528ab4;
+
+}
+
+.foot,
+.footer {
+  background: #528ab4;
+}
+
+
+/* Задаем размер текста, аналогичный h3 */
+input.city {
+  font-size: 1.5em;
+  /* Другие стили, если необходимо */
+}
+
+@media (min-width: 768px) {}
